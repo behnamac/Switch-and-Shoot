@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c96c0d98ed905c748af79d57545ff741, type: 3}
+  m_Name: HR_Wheels
+  m_EditorClassIdentifier: 
+  wheels:
+  - wheel: {fileID: 139602, guid: f5585fd482a35894cb10a714d56b607d, type: 3}
+    unlocked: 1
+    price: 0
+  - wheel: {fileID: 188042, guid: bb36ff68083724c4fa96cc94122ce107, type: 3}
+    unlocked: 0
+    price: 2500
+  - wheel: {fileID: 182262, guid: cfa220e477f1a5d47849d05d45bf0d4c, type: 3}
+    unlocked: 0
+    price: 5000

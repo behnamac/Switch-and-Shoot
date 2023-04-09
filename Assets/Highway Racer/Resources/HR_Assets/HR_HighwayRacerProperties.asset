@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5302d34921da32b4884f96409583b79a, type: 3}
+  m_Name: HR_HighwayRacerProperties
+  m_EditorClassIdentifier: 
+  _minimumSpeedForGainScore: 80
+  _minimumSpeedForHighSpeed: 100
+  _minimumCollisionForGameOver: 4
+  _defaultBodyColor: {r: 1, g: 0.5, b: 0, a: 1.5}
+  _shakeCamera: 1
+  _tiltCamera: 1
+  _totalDistanceMoneyMP: 120
+  _totalNearMissMoneyMP: 10
+  _totalOverspeedMoneyMP: 5
+  _totalOppositeDirectionMP: 5
+  toolbarSelectedIndex: 0
+  _1MMoneyForTesting: 1
+  selectablePlayerCars:
+  - {fileID: 195016, guid: aefbfdf86788c6c4d861350fc743e098, type: 3}
+  - {fileID: 152206, guid: a7ac29648089bde449f912a3c4af594a, type: 3}
+  - {fileID: 129418, guid: 687877e5b8c2cf241b222e380d440d7f, type: 3}
+  - {fileID: 155084, guid: 5e0316711e6616f4184a26509f736f4d, type: 3}
+  - {fileID: 145288, guid: ad475df4d0d6c874aac6fa4563abe6fc, type: 3}
+  - {fileID: 0}
+  upgradableWheels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  attachableSiren: {fileID: 193198, guid: 04253a71807de4b4a80478b69c92dd09, type: 3}
+  explosionEffect: {fileID: 132512, guid: 4925876185b4c094dbe857955f721761, type: 3}
+  exhaustGas: {fileID: 0}
+  mainMenuClips: []
+  gameplayClips: []
+  buttonClickAudioClip: {fileID: 8300000, guid: 35de1507d8c1d4c409d8032c6b591fe1, type: 3}
+  nearMissAudioClip: {fileID: 8300000, guid: 5c1339fd4e8962e418fe82a97ab01087, type: 3}
+  labelSlideAudioClip: {fileID: 8300000, guid: 5cd5a819d6dec0b4ea15421c1bf57b08, type: 3}
+  countingPointsAudioClip: {fileID: 8300000, guid: bdd05b44c83ffc847a96e8ff8d1f1c6c, type: 3}
+  bombTimerAudioClip: {fileID: 8300000, guid: 8460f6456256ff643b5da2fabdc6ae1d, type: 3}
+  sirenAudioClip: {fileID: 8300000, guid: b2e843118f443d24698830d1a2ebdfa3, type: 3}
+  trafficCarsLayer:
+    serializedVersion: 2
+    m_Bits: 256
